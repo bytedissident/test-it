@@ -22,6 +22,7 @@
 		8722FC0E296F6ED30045B0C9 /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8722FC0D296F6ED30045B0C9 /* TestModel.swift */; };
 		8722FC10296F6EDC0045B0C9 /* TestModelMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8722FC0F296F6EDC0045B0C9 /* TestModelMapper.swift */; };
 		8722FC13296F74B60045B0C9 /* MockTestUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8722FC12296F74B60045B0C9 /* MockTestUseCase.swift */; };
+		8722FC15296F82360045B0C9 /* TestAPIInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8722FC14296F82360045B0C9 /* TestAPIInterface.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		8722FC0D296F6ED30045B0C9 /* TestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
 		8722FC0F296F6EDC0045B0C9 /* TestModelMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModelMapper.swift; sourceTree = "<group>"; };
 		8722FC12296F74B60045B0C9 /* MockTestUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTestUseCase.swift; sourceTree = "<group>"; };
+		8722FC14296F82360045B0C9 /* TestAPIInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAPIInterface.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 			children = (
 				8722FC07296F6E950045B0C9 /* TestRepository.swift */,
 				8722FC0B296F6ECA0045B0C9 /* TestEntity.swift */,
+				8722FC14296F82360045B0C9 /* TestAPIInterface.swift */,
 			);
 			path = data;
 			sourceTree = "<group>";
@@ -355,6 +358,7 @@
 			files = (
 				8722FC04296F6E7D0045B0C9 /* TestViewModel.swift in Sources */,
 				8722FC10296F6EDC0045B0C9 /* TestModelMapper.swift in Sources */,
+				8722FC15296F82360045B0C9 /* TestAPIInterface.swift in Sources */,
 				8722FC08296F6E950045B0C9 /* TestRepository.swift in Sources */,
 				8722FC06296F6E890045B0C9 /* TestUseCase.swift in Sources */,
 				8722FC0E296F6ED30045B0C9 /* TestModel.swift in Sources */,

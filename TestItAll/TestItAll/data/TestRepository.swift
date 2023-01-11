@@ -13,7 +13,16 @@ protocol TestRepositoryProtocol {
 
 struct TestRepository: TestRepositoryProtocol {
     
+    let api: TestAPIInterfaceProtocol
+    
+    init(api: TestAPIInterfaceProtocol = TestAPIInterface()) {
+        self.api = api
+    }
+    
     func getTest() -> TestEntity {
-        return TestEntity(fooey: "hello world")
+        let data = api.get()
+        let decoder = JSONDecoder()
+        let testEntity: TestEntity? = try? decoder.decode(TestEntity.self, from: data)
+        return testEntity ?? TestEntity(fooey: "")
     }
 }
