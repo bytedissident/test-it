@@ -13,6 +13,7 @@ protocol TestAPIInterfaceProtocol {
 
 struct TestAPIInterface: TestAPIInterfaceProtocol {
     
+    // MOCK API RETURN
     func get() -> Data {
         guard let data = "{\"fooey\": \"hello world!\"}".data(using: .utf8) else {
             return Data()
